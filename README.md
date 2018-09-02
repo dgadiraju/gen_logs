@@ -3,7 +3,7 @@
 This is to simulate web application writing traffic details to log file.
 
 * It has shell scripts which invoke python program
-* It is compatible with Python 3
+* It is compatible with Python 2
 
 Here is the setup process on linux or mac or on cygwin.
 
