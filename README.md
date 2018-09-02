@@ -11,6 +11,6 @@ Here is the setup process on linux or mac or on cygwin.
 * Copy gen_logs directory to /opt
 * Run ```sudo chown -R `whoami` /opt/gen_logs```
 * Create soft links for start_logs.sh, tail_logs.sh and stop_logs.sh
-  * sudo ln -s /opt/gen_logs/start_logs.sh /usr/bin/start_logs.sh
-  * sudo ln -s /opt/gen_logs/tail_logs.sh /usr/bin/tail_logs.sh
-  * sudo ln -s /opt/gen_logs/stop_logs.sh /usr/bin/stop_logs.sh
+  * `sudo ln -s /opt/gen_logs/start_logs.sh /usr/bin/start_logs.sh`
+  * `sudo ln -s /opt/gen_logs/tail_logs.sh /usr/bin/tail_logs.sh`
+  * `sudo ln -s /opt/gen_logs/stop_logs.sh /usr/bin/stop_logs.sh`
