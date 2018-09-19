@@ -10,7 +10,8 @@ Here is the setup process on linux or mac or on cygwin.
 * Identify directory /opt/
 * Copy gen_logs directory to /opt
 * Run ```sudo chown -R `whoami` /opt/gen_logs```
-* Create soft links for start_logs.sh, tail_logs.sh and stop_logs.sh
-  * `sudo ln -s /opt/gen_logs/start_logs.sh /usr/bin/start_logs.sh`
-  * `sudo ln -s /opt/gen_logs/tail_logs.sh /usr/bin/tail_logs.sh`
-  * `sudo ln -s /opt/gen_logs/stop_logs.sh /usr/bin/stop_logs.sh`
+* Update PATH in .profile or .bash_profile or create soft links for the shell programs - ```export PATH=$PATH:/opt/gen_logs```
+* Either restart shell or run .profile/.bash_profile script
+* Run ```start_logs.sh``` to start generating web logs
+* Run ```tail_logs.sh``` to preview while logs are being generated (Hit ctrl-c to come out)
+* Run ```stop_logs.sh``` to stop generating web logs
